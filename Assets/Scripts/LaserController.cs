@@ -5,18 +5,19 @@ using UnityEngine;
 public class LaserController : MonoBehaviour
 {
     [SerializeField]
+    private float speed = 12f;
     
     // Start is called before the first frame update
     void Start()
     {
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(0, 10f * Time.deltaTime, 0);
-        t
-        if (transform.position.y > 7)
+        transform.position += new Vector3(0, speed * Time.deltaTime, 0);
+        if (transform.position.y > 7f)
         {
             Destroy(gameObject);
         }

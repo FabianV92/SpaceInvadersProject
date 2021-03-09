@@ -58,8 +58,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\EnemyController1.cs" />
+     <Compile Include="Assets\Scripts\IObservable.cs" />
+     <Compile Include="Assets\Scripts\IObserver.cs" />
      <Compile Include="Assets\Scripts\LaserController.cs" />
+     <Compile Include="Assets\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\PlayerModel.cs" />
      <Compile Include="Assets\Scripts\PlayerShipControl.cs" />
+     <Compile Include="Assets\Scripts\ScoreController.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/WindowsFFX/SpaceInvadersProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
